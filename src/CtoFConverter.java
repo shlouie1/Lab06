@@ -13,7 +13,7 @@ public class CtoFConverter {
 
         // do while loop logic that handles bad input
         do {
-            System.out.print("What is thfahrenheite temperature in Celsius?: ");
+            System.out.print("What is the Fahrenheit temperature in Celsius?: ");
             if (userInput.hasNextDouble()) {
                 tempInC = userInput.nextDouble();
                 userInput.nextLine();
